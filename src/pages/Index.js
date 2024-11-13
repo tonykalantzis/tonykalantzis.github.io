@@ -8,21 +8,23 @@ const Index = () => (
     description="Tony Kalantzi's personal website."
   >
     <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2>
-            <Link to="/">This is my personal website</Link>
-          </h2>
-        </div>
-      </header>
-      <p>
-        {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view my <Link to="/stats">stats</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
-      </p>
+      <div className="title">
+        <h5>
+          <Link to="/about">About Me</Link>
+        </h5>
+        <h5>
+          <Link to="/resume">Resume</Link>
+        </h5>
+        <h5>
+          <Link to="/projects">Projects</Link>
+        </h5>
+        <h5>
+          <Link to="/stats">Stats</Link>
+        </h5>
+        <h5>
+          <Link to="/contact">Contact</Link>
+        </h5>
+      </div>
     </article>
   </Main>
 );

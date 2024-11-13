@@ -28,7 +28,7 @@ const SideBar = () => (
         and application of Algorithms in Real World scenarios.
 
       </p>
-      <ul className="actions">
+      {/* <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
             <Link to="/resume" className="button">
@@ -40,7 +40,7 @@ const SideBar = () => (
             </Link>
           )}
         </li>
-      </ul>
+      </ul> */}
     </section>
 
     <section id="footer">

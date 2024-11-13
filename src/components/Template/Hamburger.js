@@ -1,5 +1,4 @@
 import React, { Suspense, lazy, useState } from 'react';
-
 import { Link } from 'react-router-dom';
 import routes from '../../data/routes';
 
@@ -14,13 +13,21 @@ const Hamburger = () => {
         <ul>
           {open ? (
             <li className="menu close-menu">
-              <div onClick={() => setOpen(!open)} className="menu-hover">
+              <div
+                onClick={() => setOpen(!open)}
+                className="menu-hover"
+                style={{ fontSize: '32px', cursor: 'pointer' }} // Double the size for close icon
+              >
                 &#10005;
               </div>
             </li>
           ) : (
             <li className="menu open-menu">
-              <div onClick={() => setOpen(!open)} className="menu-hover">
+              <div
+                onClick={() => setOpen(!open)}
+                className="menu-hover"
+                style={{ fontSize: '32px', cursor: 'pointer' }} // Double the size for hamburger icon
+              >
                 &#9776;
               </div>
             </li>

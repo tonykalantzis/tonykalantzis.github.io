@@ -27,7 +27,7 @@ const work = [
   {
     name: 'The Moratis School',
     position: 'Educator',
-    url: 'https://www.fasmetrics.com/index.php/en/',
+    url: 'https://moraitis.edu.gr/school/',
     startDate: '2022-09-01',
     endDate: '2023-08-01',
     summary: 'The Moraitis School is one of the largest  co-educational private school in Athens, Greece. ',

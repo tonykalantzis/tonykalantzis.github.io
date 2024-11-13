@@ -7,7 +7,7 @@ const Education = ({ data, title, id }) => (
   <div className="education">
     <div className="link-to" id={id} />
     <div className="title">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
     </div>
     {data.map((degree) => (
       <Degree data={degree} key={degree.school} />
